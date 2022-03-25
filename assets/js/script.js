@@ -11,6 +11,7 @@ function AlmondTime(){
         MegaHeader.style.background ="black";
         TheHeader.style.color ="red";
         TheHeader.textContent = name + " is now a proud supporter of Almonds and Hates the Environment";
+        locationtag.textContent = ""
     }
     else if (name == 'bubba'||name == 'Bubba'|| name == 'will'|| name== 'Will'||name =="William"|| name =="william"){
         alert(name + ", you are now under the power of big almond. And Alabama can suck a butt!");
@@ -24,7 +25,7 @@ function AlmondTime(){
         TheHeader.textContent = name + " is now a proud supporter of Almonds and Hates the Environment. Alabama Sucks, Go Knights and Charge On!";
     }
     else {
-        alert('Hey idiot! ' + name + ' is not your name, and Big Almond Knows it')
+        alert('Hey idiot! ' + name + ' is not your name, and Big Almond Knows it!')
         AlmondTime()
     }
 }
